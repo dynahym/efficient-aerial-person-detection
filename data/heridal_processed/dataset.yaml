@@ -1,0 +1,22 @@
+# HERIDAL Dataset Configuration
+# Based on QLDNet paper preprocessing
+
+path: c:\Users\dynaa\Downloads\Heridal\notebooks\..\data\heridal_processed  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test  # test images (relative to 'path')
+
+# Classes
+names:
+  0: person
+
+# Dataset info
+nc: 1  # number of classes
+original_resolution: [4000, 3000]
+processed_resolution: [1536, 1536]
+clahe_tile_size: 64
+validation_split: 0.1
+
+# Paper reference
+reference: "QLDNet: A Lightweight and Efficient Network for High-Robustness Aerial Human Detection"
+dataset: "HERIDAL - Human Detection in Aerial Images Dataset"
