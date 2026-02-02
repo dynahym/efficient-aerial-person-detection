@@ -1,0 +1,31 @@
+{
+  "preprocessing_config": {
+    "target_size": [
+      1536,
+      1536
+    ],
+    "clahe_tile_size": 64,
+    "validation_split": 0.1,
+    "paper_reference": "QLDNet (Section 3.1)"
+  },
+  "statistics": {
+    "train": {
+      "total_images": 1391,
+      "total_annotations": 2617,
+      "avg_objects_per_image": 2.9371492704826037,
+      "skipped_images": 500
+    },
+    "val": {
+      "total_images": 155,
+      "total_annotations": 275,
+      "avg_objects_per_image": 2.925531914893617,
+      "skipped_images": 61
+    },
+    "test": {
+      "total_images": 101,
+      "total_annotations": 337,
+      "avg_objects_per_image": 3.3366336633663365,
+      "skipped_images": 0
+    }
+  }
+}
